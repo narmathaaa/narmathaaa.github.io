@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hi I'm Narmatha</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.jpg"
+              alt="Narmatha"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Om Kharche">Narmatha</h1>
+
+            <p class="title">Aspiring Back-end Developer | Designer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+       
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:ne5086@srmist.edu.in" class="contact-link"
+                  >ne5086@srmist.edu.in</a
+                >
+              </div>
+            </li>
+
+            
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Chennai, India</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#" class="navbar-link active" data-nav-link>About</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#resume" class="navbar-link" data-nav-link>Resume</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#portfolio" class="navbar-link" data-nav-link
+                >Portfolio</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">My Portfolio</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm Narmatha, Hi <br />I'm a Second year student pursuing B.Tech
+              in Computer Science at SRM Institute of Science & Technology. With
+              a strong foundation in design, .where I've honed my skills in
+              tools like Figma, canva as well as in coding languages like
+              python, html and css.
+            </p>
+          </section>
+
+         
+
+       
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+      
+
+          <!-- ------------------------------------------------- -->
+
+          <!--
+          - clients
+        -->
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Tools I work with!</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="https://www.figma.com/" target="_blank">
+                  <img src="./assets/images/figma.png" alt="Figma" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="https://www.canva.com/" target="_blank">
+                  <img src="./assets/images/Canva.jpg" alt="Canva" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="https://nextjs.org/" target="_blank">
+                  <img src="./assets/images/NextJS.png" alt="NextJS" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="https://www.framer.com/" target="_blank">
+                  <img src="./assets/images/Framer.png" alt="Framer" />
+                </a>
+              </li>
+
+              <!-- <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li> -->
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume" id="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  SRM Institute of Science and Technology, Ramapuram
+                </h4>
+
+                <span>B.Tech - Computer Science</span>
+                <span>2023 — 2027</span>
+
+                <h5 class="h5 timeline-item-title">CGPA:8.7</h5>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Alwin International Public school
+                </h4>
+
+                <span>Class XII - CBSE</span>
+                <span>2022 — 2023</span>
+
+                <h5 class="h5 timeline-item-title">Grade (%): 81.4</h5>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">PSBB Millennium School</h4>
+                <span>Class X - CBSE</span>
+                <span>2020 — 2021</span>
+
+                <h5 class="h5 timeline-item-title">Grade (%): 79.2</h5>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  LOGIC PLAY - TECHNICAL CLUB
+                </h4>
+
+                <span>Head of Design</span>
+                <span> jun 2024 - present</span>
+
+                <p class="timeline-text">
+                  I lead the design team in my college’s technical club, LOGIC
+                  PLAY. I worked with the team to create posts and designs for
+                  the club’s social media. I have also trained myself to be
+                  proficient with design tools, such as Figma and Sketch. I have
+                  also attended workshops on Figma.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Figma</h5>
+                  <data value="50">50%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Python</h5>
+                  <data value="55">55%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 55%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio" id="portfolio">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="projects">
+            <p class="timeline-text">This section will updated soon!</p>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+            </div>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact" id="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248756.13131278456!2d80.04419741009349!3d13.047473315740772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1725302100687!5m2!1sen!2sin"
+                width="400"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              >
+              </iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form id="contact-form" class="form">
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+              ></textarea>
+
+              <p class="timeline-text">
+                Note: If the form does not work, please do click on the mail in
+                the sidebar! <br />
+                Sorry for the inconvenience, Thank you!
+              </p>
+
+              <button class="form-btn" type="submit">
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- emailjs link  -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("tzeNKcPo8_VyML0P4"); // Replace 'YOUR_PUBLIC_KEY' with your actual EmailJS public key
+      })();
+
+      // Handle form submission
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent default form submission behavior
+
+          // Capture form values
+          const formData = {
+            fullname: document.querySelector('input[name="fullname"]').value,
+            email: document.querySelector('input[name="email"]').value,
+            message: document.querySelector('textarea[name="message"]').value,
+          };
+
+          // Define EmailJS template parameters
+          const templateParams = {
+            from_name: formData.fullname,
+            from_email: formData.email,
+            message: formData.message,
+          };
+
+          // Send the email using EmailJS
+          emailjs
+            .send("service_bkkiw2e", "template_w3j8mbn", templateParams)
+            .then(
+              function (response) {
+                alert("Email sent successfully!");
+              },
+              function (error) {
+                console.log("FAILED...", error);
+                alert("Failed to send email. Please try again.");
+              }
+            );
+          // Optionally, reset the form after submission
+          event.target.reset();
+        });
+    </script>
+  </body>
+</html>
